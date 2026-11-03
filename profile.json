@@ -1,0 +1,71 @@
+{
+  "owner": "folarihn",
+  "display_name": "FOLARIHN",
+  "intro": "I build with AI agents and explore reliable autonomous systems.",
+  "location": "Earth",
+  "focus": "Agents / tool use / programmable payments",
+  "projects": [
+    {
+      "name": "Hermes",
+      "status": "IN DEVELOPMENT",
+      "description": "Agent execution, tool use and reliability experiments.",
+      "tags": [
+        "AI",
+        "Agents",
+        "Evaluation"
+      ]
+    },
+    {
+      "name": "Quorum",
+      "status": "IN DEVELOPMENT",
+      "description": "Diagnostics and agent-payment boundary experiments.",
+      "tags": [
+        "Python",
+        "Payments",
+        "Safety"
+      ]
+    },
+    {
+      "name": "Universal-Agent-Minter",
+      "status": "PUBLIC SOURCE",
+      "description": "Agent minting interface; wallet and skill-file tooling.",
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "Web3"
+      ],
+      "url": "https://github.com/folarihn/Universal-Agent-Minter"
+    },
+    {
+      "name": "topclaw-agent",
+      "status": "PUBLIC SOURCE",
+      "description": "JavaScript agent tooling and automation experiments.",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Tools"
+      ],
+      "url": "https://github.com/folarihn/topclaw-agent"
+    }
+  ],
+  "research": [
+    "Reliable, long-horizon agents",
+    "Tool use and execution boundaries",
+    "Agent safety and authorization",
+    "Evaluation and failure analysis",
+    "Programmable payment workflows"
+  ],
+  "stack": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Docker"
+  ],
+  "contacts": {
+    "github": "https://github.com/folarihn",
+    "portfolio": "https://folarihnport.vercel.app/"
+  }
+}
