@@ -2,7 +2,7 @@
 
 ## Scope and provenance
 
-Target: the GitHub profile repository `folarihn/folarihn`. It did not exist during inspection. This project is prepared locally; creating a new public repository requires the owner's explicit approval. No other repository may be changed or made public.
+Target: the GitHub profile repository `folarihn/folarihn`. It did not exist during inspection. The owner approved public creation on 3 November 2026; the profile is now published at https://github.com/folarihn. No other repository may be changed or made public.
 
 `design-reference.png` is the owner-supplied visual reference. It is retained for design comparison, not as portfolio evidence. Its repository/contribution counts, background in Mathematics & Statistics, location suffix, X link, and technology icons were not assumed true. Only public profile fields and inspected source were used. Hermes and Quorum appear by owner request as development entries without exposing repository URLs or private project internals. Public projects are linked only after unauthenticated HTTP accessibility checks.
 
@@ -53,4 +53,4 @@ python scripts/validate.py --online
 
 Edit `profile.json` for vetted static content, update README's selectable counterpart, then regenerate. Do not add credentials, private repository URLs, agent memories, wallet information, or environment files. The retained original PNG is larger than the delivered hero but is not loaded by README. System-font availability may change rasterized terminal branding when regenerating on a different OS; the committed hero is the presentation source of truth.
 
-GitHub Markdown rendering and repository status can change. A profile cannot appear on GitHub before an approved public repository is created and pushed. Daily workflows cannot be confirmed running until that publication occurs.
+GitHub Markdown rendering and repository status can change. Publication was approved and completed on 3 November 2026. The initial validation and public-statistics refresh workflows both passed on GitHub.

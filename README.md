@@ -42,7 +42,7 @@ Reliable and long-horizon agents · tool use and execution boundaries · agent s
   <img src="assets/generated/github-stats.svg" width="1200" alt="An 84-day view of public events observed through the GitHub REST API. It is API-limited and is not a complete contribution calendar.">
 </picture>
 
-[View my native GitHub contribution calendar](https://github.com/folarihn#overview). The graphic above shows **observed public events**, not total contributions. No private-repository data is queried. After publication, a daily workflow refreshes the snapshot; this is not real-time telemetry.
+[View my native GitHub contribution calendar](https://github.com/folarihn#overview). The graphic above shows **observed public events**, not total contributions. No private-repository data is queried. A daily workflow refreshes the snapshot; this is not real-time telemetry.
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">

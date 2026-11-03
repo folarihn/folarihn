@@ -195,7 +195,7 @@ def generate_stats():
     b += text(540, 200, f'{s["window_start"]} to {s["window_end"]}', 19)
     b += text(540, 234, "Not a total contribution graph.", 20, CYAN)
     b += text(540, 267, "No private repository activity queried.", 18, MUTED)
-    b += text(540, 300, "Daily refresh after publication.", 18, MUTED)
+    b += text(540, 300, "Daily public API refresh.", 18, MUTED)
     b += text(26, 342, 'Snapshot: ' + s.get("updated_at", "unknown") + ' / GitHub REST API', 16, MUTED)
     svg("generated/github-stats.svg", 1200, 260, "Public-only GitHub statistics and observed activity; not total contributions", '<g transform="translate(0,-105)">' + b + '</g>')
     mobile = text(22, 34, "/github-activity", 25, WHITE, True)

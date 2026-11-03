@@ -19,7 +19,7 @@ Default-rule Gitleaks scans of the exact publication set and staged changes pass
 
 ## Limits
 
-The profile is not published: creation of a new public repository requires owner approval. Neither workflow has run on GitHub yet. Local YAML, permission and asset checks are not a CI run. After approved publication, manually dispatch the statistics workflow and inspect its result. The first refresh will include the newly public profile repository.
+The owner approved public creation on 3 November 2026. The profile is published at https://github.com/folarihn with source at https://github.com/folarihn/folarihn. Both GitHub Actions passed: validation run 41604061577 and public-statistics refresh run 41604095740. The refresh committed updated public data, including the newly public profile repository. Original publication-set, staged-file and committed-history Gitleaks scans passed with zero findings. No other repository was changed.
 
 The preview shell approximates GitHub layout; actual hosted presentation can differ. SVG system fonts, image caching, picture/media selection and GIF motion preferences vary by client. Critical text and links remain selectable. The README cannot guarantee that every client honors reduced-motion preferences.
 
