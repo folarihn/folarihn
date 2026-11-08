@@ -10,12 +10,36 @@
     "github": "https://github.com/folarihn"
   },
   "boot": [
-    ["init", "agent runtime", "OK"],
-    ["load", "sentinel.policy", "OK"],
-    ["mount", "settle.escrow  near", "LIVE"],
-    ["mount", "zecone.pay  zec→base", "LIVE"],
-    ["sync", "sightline.graph", "LIVE"],
-    ["spawn", "parallel agents x3", "OK"]
+    [
+      "init",
+      "agent runtime",
+      "OK"
+    ],
+    [
+      "load",
+      "sentinel.policy",
+      "OK"
+    ],
+    [
+      "mount",
+      "settle.escrow  near",
+      "LIVE"
+    ],
+    [
+      "mount",
+      "zecone.pay  zec→base",
+      "LIVE"
+    ],
+    [
+      "sync",
+      "sightline.graph",
+      "LIVE"
+    ],
+    [
+      "spawn",
+      "parallel agents x3",
+      "OK"
+    ]
   ],
   "builds": [
     {
@@ -23,7 +47,11 @@
       "name": "SETTLE",
       "kind": "escrow protocol",
       "desc": "Work agreements between humans and AI agents. Funds wait in a NEAR contract and release only when the agreed check passes.",
-      "stack": ["Rust", "NEAR", "TypeScript"],
+      "stack": [
+        "Rust",
+        "NEAR",
+        "TypeScript"
+      ],
       "status": "LIVE",
       "url": "https://settlenear.xyz",
       "repo": "https://github.com/folarihn/settle"
@@ -33,7 +61,11 @@
       "name": "ZecOne",
       "kind": "private payments",
       "desc": "Customers pay with shielded Zcash, merchants get ETH on Base. Checkout, merchant API and live payouts.",
-      "stack": ["Rust", "Solidity", "TypeScript"],
+      "stack": [
+        "Rust",
+        "Solidity",
+        "TypeScript"
+      ],
       "status": "LIVE",
       "url": "https://zecone.xyz",
       "repo": "https://github.com/folarihn/zecone"
@@ -43,7 +75,11 @@
       "name": "Sentinel OS",
       "kind": "agent control plane",
       "desc": "Checks every agent tool call before it runs, logs redacted events, and lets you roll back file changes from a Control Room.",
-      "stack": ["Python", "Hermes", "SQLite"],
+      "stack": [
+        "Python",
+        "Hermes",
+        "SQLite"
+      ],
       "status": "BETA"
     },
     {
@@ -51,7 +87,11 @@
       "name": "Sightline",
       "kind": "on-chain intelligence",
       "desc": "Traces where a wallet's money came from, scores real holders vs bots, and finds the smart money inside any token.",
-      "stack": ["Python", "TypeScript", "WebGL"],
+      "stack": [
+        "Python",
+        "TypeScript",
+        "WebGL"
+      ],
       "status": "LIVE",
       "url": "https://tracer-pi-lyart.vercel.app"
     },
@@ -60,7 +100,11 @@
       "name": "Swap Sea",
       "kind": "NFT swap market",
       "desc": "Non-custodial NFT swaps: NFT for NFT, bundles, ETH and ERC-20 legs, all settled atomically in one transaction.",
-      "stack": ["Solidity", "Foundry", "Next.js"],
+      "stack": [
+        "Solidity",
+        "Foundry",
+        "Next.js"
+      ],
       "status": "LIVE",
       "url": "https://swapsea.vercel.app"
     },
@@ -69,7 +113,11 @@
       "name": "EVM Scout",
       "kind": "AI contract auditor",
       "desc": "Multi-agent smart-contract audits: CrewAI reviewers, Slither, a RAG exploit base and Foundry proof-of-concept sandboxes.",
-      "stack": ["Python", "CrewAI", "Foundry"],
+      "stack": [
+        "Python",
+        "CrewAI",
+        "Foundry"
+      ],
       "status": "BETA"
     },
     {
@@ -77,7 +125,11 @@
       "name": "Quorum",
       "kind": "agent payments",
       "desc": "Market diagnostics that agents pay for over x402. An MCP plugin drafts unsigned payment proposals; a human signs.",
-      "stack": ["Python", "FastAPI", "MCP"],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "MCP"
+      ],
       "status": "R&D"
     },
     {
@@ -85,14 +137,30 @@
       "name": "Hermes Research",
       "kind": "reliable agents",
       "desc": "Durable task workflows, bounded parallel agents and approval-gated GitHub delivery built on Hermes Agent.",
-      "stack": ["Python", "GitHub Apps", "FTS"],
+      "stack": [
+        "Python",
+        "GitHub Apps",
+        "FTS"
+      ],
       "status": "R&D"
     }
   ],
   "more": [
     "NFT PowerBot — Telegram NFT trading bot, Flashbots-protected, ETH + Base",
-    "Cipher Pay — shielded Solana payments with encrypted memos",
-    "Boxed Hood · Daily Stonkers · Zecdinals · Glyphverse — NFT drops and mint sites"
+    "Cipher Pay — shielded Solana payments with encrypted memos"
   ],
-  "stack": ["Python", "TypeScript", "Rust", "Solidity", "Next.js", "Node.js", "FastAPI", "Foundry", "NEAR", "Base", "Zcash", "Docker"]
+  "stack": [
+    "Python",
+    "TypeScript",
+    "Rust",
+    "Solidity",
+    "Next.js",
+    "Node.js",
+    "FastAPI",
+    "Foundry",
+    "NEAR",
+    "Base",
+    "Zcash",
+    "Docker"
+  ]
 }

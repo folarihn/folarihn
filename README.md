@@ -32,7 +32,6 @@
 
 - NFT PowerBot — Telegram NFT trading bot, Flashbots-protected, ETH + Base
 - Cipher Pay — shielded Solana payments with encrypted memos
-- Boxed Hood · Daily Stonkers · Zecdinals · Glyphverse — NFT drops and mint sites
 
 </details>
 
