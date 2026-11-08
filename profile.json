@@ -146,7 +146,8 @@
     }
   ],
   "more": [
-    "NFT PowerBot — Telegram NFT trading bot, Flashbots-protected, ETH + Base",
+    "NFT PowerBot — Telegram NFT trading bot: mints, snipes and sweeps on ETH + Base, Flashbots-protected",
+    "[Universal Agent Minter](https://github.com/folarihn/Universal-Agent-Minter) — mint AI-agent identity NFTs from SKILL.md files",
     "Cipher Pay — shielded Solana payments with encrypted memos"
   ],
   "stack": [
