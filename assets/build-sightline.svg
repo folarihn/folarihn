@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="236" viewBox="0 0 590 236" role="img" aria-label="Sightline (LIVE): Traces where a wallet&#x27;s money came from, scores real holders vs bots, and finds the smart money inside any token. Stack: Python, TypeScript, WebGL.">
+<title>Sightline (LIVE): Traces where a wallet&#x27;s money came from, scores real holders vs bots, and finds the smart money inside any token. Stack: Python, TypeScript, WebGL.</title>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',monospace;}
+
+.led{animation:led 1.6s ease-in-out infinite}
+@keyframes led{0%,100%{opacity:1}50%{opacity:.25}}
+.sweep{animation:sweep 5s linear infinite;animation-delay:-1.8s}
+@keyframes sweep{from{transform:translateX(-260px)}to{transform:translateX(630px)}}
+.corner{animation:cn 3s ease-in-out infinite}
+@keyframes cn{0%,100%{opacity:.4}50%{opacity:1}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+</style>
+<defs><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#3dff9a" stop-opacity="0"/><stop offset=".5" stop-color="#3dff9a" stop-opacity=".9"/><stop offset="1" stop-color="#3dff9a" stop-opacity="0"/></linearGradient><pattern id="cg" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M 24 0 L 0 0 0 24" fill="none" stroke="#14303a" stroke-width="0.6" opacity="0.55"/></pattern><clipPath id="cc"><rect width="590" height="236" rx="12"/></clipPath></defs>
+<g clip-path="url(#cc)"><rect width="590" height="236" fill="#0a1117"/>
+<rect width="590" height="236" fill="url(#cg)" opacity=".5"/>
+<rect class="sweep" x="0" y="0" width="220" height="2" fill="url(#sw)"/>
+<rect x=".5" y=".5" width="589" height="235" rx="12" fill="none" stroke="#14303a"/>
+<path class="corner" d="M10 24 V10 H24" fill="none" stroke="#3dff9a" stroke-width="2"/>
+<path class="corner" d="M580 24 V10 H566" fill="none" stroke="#3dff9a" stroke-width="2"/>
+<path class="corner" d="M10 212 V226 H24" fill="none" stroke="#3dff9a" stroke-width="2"/>
+<path class="corner" d="M580 212 V226 H566" fill="none" stroke="#3dff9a" stroke-width="2"/>
+<text x="30" y="44" fill="#6b8495" font-size="12" letter-spacing="2">04 // ON-CHAIN INTELLIGENCE</text>
+<rect x="488" y="27" width="72" height="24" rx="12" fill="#3dff9a" fill-opacity=".1" stroke="#3dff9a" stroke-opacity=".5"/>
+<circle class="led" cx="504" cy="39" r="4" fill="#3dff9a"/>
+<text x="554" y="44" text-anchor="end" fill="#3dff9a" font-size="12" font-weight="700">LIVE</text>
+<text x="28" y="86" fill="#d4e1ea" font-size="30" font-weight="800">Sightline</text>
+<text x="30" y="118" fill="#9fb3c1" font-size="13.5">Traces where a wallet&#x27;s money came from, scores real holders</text>
+<text x="30" y="138" fill="#9fb3c1" font-size="13.5">vs bots, and finds the smart money inside any token.</text>
+<rect x="30" y="182" width="64" height="24" rx="5" fill="#0f1c24" stroke="#14303a"/>
+<text x="62" y="198" text-anchor="middle" fill="#22d3ee" font-size="12">Python</text>
+<rect x="101.6" y="182" width="94" height="24" rx="5" fill="#0f1c24" stroke="#14303a"/>
+<text x="149" y="198" text-anchor="middle" fill="#22d3ee" font-size="12">TypeScript</text>
+<rect x="203.6" y="182" width="56" height="24" rx="5" fill="#0f1c24" stroke="#14303a"/>
+<text x="232" y="198" text-anchor="middle" fill="#22d3ee" font-size="12">WebGL</text>
+<text x="560" y="198" text-anchor="end" fill="#3dff9a" font-size="12">↗ tracer-pi-lyart.vercel.app</text>
+</g>
+</svg>

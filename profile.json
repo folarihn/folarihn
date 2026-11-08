@@ -1,71 +1,98 @@
 {
-  "owner": "folarihn",
-  "display_name": "FOLARIHN",
-  "intro": "I build with AI agents and explore reliable autonomous systems.",
-  "location": "Earth",
-  "focus": "Agents / tool use / programmable payments",
-  "projects": [
+  "handle": "folarihn",
+  "name": "FOLARIHN",
+  "role": "builder · agent systems · on-chain infra",
+  "tagline": "I build autonomous AI agents, the guardrails that keep them honest, and the payment rails they run on.",
+  "location": "Lagos, NG",
+  "links": {
+    "portfolio": "https://folarihnport.vercel.app/",
+    "x": "https://x.com/folarihn",
+    "github": "https://github.com/folarihn"
+  },
+  "boot": [
+    ["init", "agent runtime", "OK"],
+    ["load", "sentinel.policy", "OK"],
+    ["mount", "settle.escrow  near", "LIVE"],
+    ["mount", "zecone.pay  zec→base", "LIVE"],
+    ["sync", "sightline.graph", "LIVE"],
+    ["spawn", "parallel agents x3", "OK"]
+  ],
+  "builds": [
     {
-      "name": "Hermes",
-      "status": "IN DEVELOPMENT",
-      "description": "Agent execution, tool use and reliability experiments.",
-      "tags": [
-        "AI",
-        "Agents",
-        "Evaluation"
-      ]
+      "id": "settle",
+      "name": "SETTLE",
+      "kind": "escrow protocol",
+      "desc": "Work agreements between humans and AI agents. Funds wait in a NEAR contract and release only when the agreed check passes.",
+      "stack": ["Rust", "NEAR", "TypeScript"],
+      "status": "LIVE",
+      "url": "https://settlenear.xyz",
+      "repo": "https://github.com/folarihn/settle"
     },
     {
+      "id": "zecone",
+      "name": "ZecOne",
+      "kind": "private payments",
+      "desc": "Customers pay with shielded Zcash, merchants get ETH on Base. Checkout, merchant API and live payouts.",
+      "stack": ["Rust", "Solidity", "TypeScript"],
+      "status": "LIVE",
+      "url": "https://zecone.xyz",
+      "repo": "https://github.com/folarihn/zecone"
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel OS",
+      "kind": "agent control plane",
+      "desc": "Checks every agent tool call before it runs, logs redacted events, and lets you roll back file changes from a Control Room.",
+      "stack": ["Python", "Hermes", "SQLite"],
+      "status": "BETA"
+    },
+    {
+      "id": "sightline",
+      "name": "Sightline",
+      "kind": "on-chain intelligence",
+      "desc": "Traces where a wallet's money came from, scores real holders vs bots, and finds the smart money inside any token.",
+      "stack": ["Python", "TypeScript", "WebGL"],
+      "status": "LIVE",
+      "url": "https://tracer-pi-lyart.vercel.app"
+    },
+    {
+      "id": "swapsea",
+      "name": "Swap Sea",
+      "kind": "NFT swap market",
+      "desc": "Non-custodial NFT swaps: NFT for NFT, bundles, ETH and ERC-20 legs, all settled atomically in one transaction.",
+      "stack": ["Solidity", "Foundry", "Next.js"],
+      "status": "LIVE",
+      "url": "https://swapsea.vercel.app"
+    },
+    {
+      "id": "evmscout",
+      "name": "EVM Scout",
+      "kind": "AI contract auditor",
+      "desc": "Multi-agent smart-contract audits: CrewAI reviewers, Slither, a RAG exploit base and Foundry proof-of-concept sandboxes.",
+      "stack": ["Python", "CrewAI", "Foundry"],
+      "status": "BETA"
+    },
+    {
+      "id": "quorum",
       "name": "Quorum",
-      "status": "IN DEVELOPMENT",
-      "description": "Diagnostics and agent-payment boundary experiments.",
-      "tags": [
-        "Python",
-        "Payments",
-        "Safety"
-      ]
+      "kind": "agent payments",
+      "desc": "Market diagnostics that agents pay for over x402. An MCP plugin drafts unsigned payment proposals; a human signs.",
+      "stack": ["Python", "FastAPI", "MCP"],
+      "status": "R&D"
     },
     {
-      "name": "Universal-Agent-Minter",
-      "status": "PUBLIC SOURCE",
-      "description": "Agent minting interface; wallet and skill-file tooling.",
-      "tags": [
-        "TypeScript",
-        "Next.js",
-        "Web3"
-      ],
-      "url": "https://github.com/folarihn/Universal-Agent-Minter"
-    },
-    {
-      "name": "topclaw-agent",
-      "status": "PUBLIC SOURCE",
-      "description": "JavaScript agent tooling and automation experiments.",
-      "tags": [
-        "JavaScript",
-        "Node.js",
-        "Tools"
-      ],
-      "url": "https://github.com/folarihn/topclaw-agent"
+      "id": "hermes",
+      "name": "Hermes Research",
+      "kind": "reliable agents",
+      "desc": "Durable task workflows, bounded parallel agents and approval-gated GitHub delivery built on Hermes Agent.",
+      "stack": ["Python", "GitHub Apps", "FTS"],
+      "status": "R&D"
     }
   ],
-  "research": [
-    "Reliable, long-horizon agents",
-    "Tool use and execution boundaries",
-    "Agent safety and authorization",
-    "Evaluation and failure analysis",
-    "Programmable payment workflows"
+  "more": [
+    "NFT PowerBot — Telegram NFT trading bot, Flashbots-protected, ETH + Base",
+    "Cipher Pay — shielded Solana payments with encrypted memos",
+    "Boxed Hood · Daily Stonkers · Zecdinals · Glyphverse — NFT drops and mint sites"
   ],
-  "stack": [
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Docker"
-  ],
-  "contacts": {
-    "github": "https://github.com/folarihn",
-    "portfolio": "https://folarihnport.vercel.app/"
-  }
+  "stack": ["Python", "TypeScript", "Rust", "Solidity", "Next.js", "Node.js", "FastAPI", "Foundry", "NEAR", "Base", "Zcash", "Docker"]
 }
